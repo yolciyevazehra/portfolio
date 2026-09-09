@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Zəhra Yolçiyeva — Frontend Developer. Responsive, modern və istifadəçi yönümlü web layihələr hazırlayıram.">
+  <meta name="description"
+    content="Zehra Yolchiyeva — Frontend Developer. Responsive, modern və istifadəçi yönümlü web layihələr hazırlayıram.">
+
+  <meta name="keywords"
+    content="Zəhra Yolçiyeva, Frontend Developer, Web Developer, JavaScript, Tailwind CSS, E-commerce, Azerbaijan">
+  <meta name="keywords"
+    content="Zehra Yolchiyeva, Frontend Developer, Web Developer, JavaScript, Tailwind CSS, E-commerce, Azerbaijan">
+
+  <meta name="author" content="Zəhra Yolçiyeva">
+  <meta name="author" content="Zehra Yolchiyeva">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Yolchiyeva Zehra — Frontend Developer</title>
+</head>
+
+<body>
+
+  <div class="mobile-bar">
+    <p class="name">Yolçiyeva Zəhra</p>
+    <button class="burger" id="burgerBtn" aria-label="Menyu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="3" y1="6" x2="21" y2="6" />
+        <line x1="3" y1="12" x2="21" y2="12" />
+        <line x1="3" y1="18" x2="21" y2="18" />
+      </svg>
+    </button>
+  </div>
+
+  <div class="layout">
+
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <div class="brand">portfolio.dev</div>
+        <p class="name">Yolçiyeva Zəhra</p>
+        <p class="role">Frontend Developer</p>
+
+        <ul class="nav-list" id="navList">
+          <li><a href="#haqqimda" class="nav-link active"><span class="idx">01</span>Haqqımda</a></li>
+          <li><a href="#tehsil" class="nav-link"><span class="idx">02</span>Təhsil</a></li>
+          <!-- <li><a href="#tecrube" class="nav-link"><span class="idx">03</span>Təcrübə</a></li> -->
+          <li><a href="#layiheler" class="nav-link"><span class="idx">03</span>Layihələr</a></li>
+          <li><a href="#elaqe" class="nav-link"><span class="idx">04</span>Əlaqə</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-footer">
+        <div>© 2026 — Bakı, Azərbaycan</div>
+        <div class="sidebar-social">
+          <a href="tel:+994515520143" aria-label="Telefon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+          </a>
+          <a href="mailto:zhrayolciyeva@gmail.com" aria-label="E-poçt">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16v16H4z" opacity="0" />
+              <path d="M22 6l-10 7L2 6" />
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/z%C9%99hra-yol%C3%A7iyeva/" target="_blank" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V8h4v1.5A5.5 5.5 0 0 1 16 8z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+          </a>
+          <a href="https://github.com/yolciyevazehra" target="_blank" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <main>
+
+      <section class="hero" id="haqqimda">
+        <div class="eyebrow-num">Frontend Developer</div>
+        <h1>Salam, mən Zəhra — istifadəçi interfeysləri qururam.</h1>
+        <p class="lead">Frontend Developer olaraq müasir və responsive veb interfeyslərin hazırlanması ilə məşğulam.
+          HTML, CSS, JavaScript, React və Tailwind CSS ilə işləyir, istifadəçi təcrübəsinə və təmiz, funksional
+          interfeyslərin yaradılmasına xüsusi diqqət yetirirəm.</p>
+
+        <div class="terminal">
+          <div class="bar">
+            <span class="tdot" style="background:#E4572E"></span>
+            <span class="tdot" style="background:#E8B04B"></span>
+            <span class="tdot" style="background:#7CB86B"></span>
+          </div>
+          <div><span class="prompt">$</span> whoami</div>
+          <p class="out">&gt; Frontend Developer, Bakı</p>
+          <div><span class="prompt">$</span> stack --list</div>
+          <p class="out">&gt; HTML · CSS · JavaScript · React</p>
+          <div><span class="prompt">$</span> status</div>
+          <p class="out" style="margin-bottom:0">&gt; Yeni layihələr üçün açığam</p>
+        </div>
+
+        <div class="hero-cta">
+          <a href="#layiheler" class="btn btn-primary">Layihələrimə bax</a>
+          <a href="#elaqe" class="btn btn-ghost">Əlaqə saxla</a>
+        </div>
+      </section>
+
+      <section id="haqqimda-detail">
+        <div class="eyebrow-num">Haqqımda</div>
+        <h2>Qısa məlumat</h2>
+        <div class="about-text">
+          <p>Mən Zəhra Yolçiyeva, frontend development sahəsində inkişaf edən və rəqəmsal məhsullar yaratmağa maraq
+            göstərən developerəm. Texnologiya, dizayn və problemlərə yaradıcı həllər tapmaq mənim əsas maraq dairəmə
+            daxildir. İşə yanaşmam daim öyrənmək, detallara diqqət etmək və hər layihədə həm funksional, həm də
+            istifadəçi yönümlü nəticə ortaya qoymaq üzərində qurulub.
+          </p>
+          <p>İndiyə qədər portfolio, landing page və e-commerce layihələri üzərində işləmişəm. Bu layihələrdə responsive
+            və istifadəçi yönümlü interfeyslər hazırlayaraq əsasən HTML, CSS, JavaScript və Tailwind CSS-dən istifadə
+            etmişəm. Komanda daxilində ideyaların müzakirəsinə, məsuliyyətlərin bölüşdürülməsinə və ortaq məqsədə
+            yönəlmiş əməkdaşlığa önəm verirəm. Hazırda React və backend texnologiyaları üzrə biliklərimi genişləndirərək
+            full-stack development istiqamətində inkişaf etməyi hədəfləyirəm.
+          </p>
+        </div>
+        <div class="skills">
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+          <span class="skill-tag">Tailwind</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Git / GitHub</span>
+          <span class="skill-tag">Figma</span>
+          <span class="skill-tag">Responsive Design</span>
+        </div>
+      </section>
+
+      <section id="tehsil">
+        <div class="eyebrow-num">02 — Təhsil</div>
+        <h2>Təhsilim</h2>
+
+        <div class="timeline">
+          <div class="t-item">
+            <div class="t-date">2024 — 2028</div>
+            <p class="t-title">Azərbaycan Dövlət Neft və Sənaye universiteti</p>
+            <p class="t-sub">Mexatronika və Robototexnika mühəndisliyi</p>
+          </div>
+          <div class="t-item">
+            <div class="t-date">2026</div>
+            <p class="t-title">Div Academy</p>
+            <p class="t-desc">Winner of “Gələcəyi Yazanlar”</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section id="tecrube">
+        <div class="eyebrow-num">03 — Təcrübə</div>
+        <h2>İş təcrübəm</h2>
+
+        <div class="timeline">
+          <div class="t-item">
+            <div class="t-date">2024 — hazırda</div>
+            <p class="t-title">Vəzifənizin adı</p>
+            <p class="t-sub">Şirkətin adı, Bakı</p>
+            <div class="t-desc">
+              <ul>
+                <li>Burada gördüyünüz işlərdən birini yazın.</li>
+                <li>İkinci məsuliyyət və ya nailiyyət.</li>
+                <li>İstifadə etdiyiniz alət/texnologiyaları qeyd edin.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="t-item">
+            <div class="t-date">2023 — 2024</div>
+            <p class="t-title">Əvvəlki vəzifə</p>
+            <p class="t-sub">Şirkətin adı</p>
+            <div class="t-desc">
+              <ul>
+                <li>Qısa iş təsviri.</li>
+                <li>Əldə etdiyiniz nəticə və ya bacarıq.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+        <section id="layiheler">
+          <div class="eyebrow-num">04 — Layihələr</div>
+          <h2>Seçilmiş işlərim</h2>
+
+          <div class="project-grid">
+            <div class="project-card">
+              <div class="project-thumb" style="background:#2F4FD6;">
+                <img src="img/lahiye1.png" alt="">
+              </div>
+              <div class="project-body">
+                <h3>Bistro Bliss</h3>
+                <div class="project-tags"><span>HTML5</span><span>Tailwind</span><span>JS</span><span>Figma</span></div>
+                <div class="project-links">
+                  <a href="https://bliss-beryl-one.vercel.app/" target="_blank">Canlı bax</a>
+                  <a href="https://github.com/yolciyevazehra/bliss" target="_blank">GitHub</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-thumb" style="background:#E4572E;">
+                <img src="img/lahiye2.png" alt="">
+              </div>
+              <div class="project-body">
+                <h3>Coffe</h3>
+                <div class="project-tags"><span>HTML5</span><span>Tailwind</span><span>Figma</span></div>
+                <div class="project-links">
+                  <a href="https://cofee-six-chi.vercel.app/" target="_blank">Canlı bax</a>
+                  <a href="https://github.com/yolciyevazehra/cofee" target="_blank">GitHub</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-thumb" style="background:#1C1F26;">
+                <img src="img/lahiye3.png" alt="">
+              </div>
+              <div class="project-body">
+                <h3>Icecream</h3>
+                <div class="project-tags"><span>HTML</span><span>Figma</span><span>Tailwind</span></div>
+                <div class="project-links">
+                  <a href="https://icecream-phi-ten.vercel.app/" target="_blank">Canlı bax</a>
+                  <a href="https://github.com/yolciyevazehra/icecream" target="_blank">GitHub</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-thumb" style="background:#7C9CFF;">
+                <img src="img/lahiye4.png" alt="">
+              </div>
+              <div class="project-body">
+                <h3>Your Store</h3>
+                <div class="project-tags"><span>HTML5</span><span>JS</span><span>Tailwind</span><span>API</span></div>
+                <div class="project-links">
+                  <a href="https://getapi-seven.vercel.app/" target="_blank">Canlı bax</a>
+                  <a href="https://github.com/yolciyevazehra/getapi" target="_blank">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="elaqe">
+          <div class="eyebrow-num">05 — Əlaqə</div>
+          <h2>Əlaqə saxlayın</h2>
+          <p class="about-text" style="margin-bottom:0;">Layihə və əməkdaşlıq təklifləri üçün mənimlə əlaqə saxlaya
+            bilərsiniz.
+          </p>
+
+          <div class="contact-grid">
+            <a class="contact-card" href="tel:+994515520143">
+              <div class="ic">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+              </div>
+              <div>
+                <div class="label">TELEFON</div>
+                <div class="value">+994 51 552 01 43</div>
+              </div>
+            </a>
+
+            <a class="contact-card" href="mailto:sizin@email.com">
+              <div class="ic">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 6l-10 7L2 6" />
+                  <rect x="2" y="4" width="20" height="16" rx="2" />
+                </svg>
+              </div>
+              <div>
+                <div class="label">E-POÇT</div>
+                <div class="value">zhrayolciyeva@gmail.com</div>
+              </div>
+            </a>
+
+            <a class="contact-card" href="https://www.linkedin.com/in/z%C9%99hra-yol%C3%A7iyeva/" target="_blank">
+              <div class="ic">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V8h4v1.5A5.5 5.5 0 0 1 16 8z" />
+                  <rect x="2" y="9" width="4" height="12" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </div>
+              <div>
+                <div class="label">LINKEDIN</div>
+                <div class="value">www.linkedin.com/in/zəhra-yolçiyeva</div>
+              </div>
+            </a>
+
+            <a class="contact-card" href="https://github.com/yolciyevazehra" target="_blank">
+              <div class="ic">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg>
+              </div>
+              <div>
+                <div class="label">GITHUB</div>
+                <div class="value">https://github.com/yolciyevazehra</div>
+              </div>
+            </a>
+          </div>
+        </section>
+
+        <footer>
+          © 2026 Yolçiyeva Zəhra. Bütün hüquqlar qorunur.
+        </footer>
+
+    </main>
+  </div>
+
+  <script>
+    // mobile menu toggle
+    const burger = document.getElementById('burgerBtn');
+    const sidebar = document.getElementById('sidebar');
+    burger.addEventListener('click', () => {
+      sidebar.classList.toggle('open');
+    });
+    document.querySelectorAll('#navList a').forEach(a => {
+      a.addEventListener('click', () => sidebar.classList.remove('open'));
+    });
+
+    // active nav link on scroll
+    const links = document.querySelectorAll('.nav-link');
+    const sections = ['haqqimda', 'tehsil', 'tecrube', 'layiheler', 'elaqe'].map(id => document.getElementById(id));
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.id;
+          links.forEach(l => {
+            l.classList.toggle('active', l.getAttribute('href') === '#' + id);
+          });
+        }
+      });
+    }, { rootMargin: '-40% 0px -50% 0px' });
+
+    sections.forEach(s => s && observer.observe(s));
+  </script>
+
+</body>
+
+</html>
